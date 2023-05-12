@@ -7,5 +7,5 @@ metadata:
     'backstage.io/kubernetes-label-selector': 'app=hello-tanzu-backstage'
 spec:
   type: service
-  lifecycle: experimental
-  owner: default-team
+  lifecycle: unknown
+  owner: guests
