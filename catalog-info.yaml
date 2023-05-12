@@ -6,6 +6,6 @@ metadata:
     github.com/project-slug: imurata/hello-tanzu-backstage
     'backstage.io/kubernetes-label-selector': 'app=hello-tanzu-backstage'
 spec:
-  type: other
-  lifecycle: unknown
-  owner: guests
+  type: service
+  lifecycle: experimental
+  owner: default-team
