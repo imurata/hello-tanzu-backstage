@@ -5,7 +5,8 @@ metadata:
   annotations:
     github.com/project-slug: imurata/hello-tanzu-backstage
     'backstage.io/kubernetes-label-selector': 'app=hello-tanzu-backstage'
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
-  lifecycle: unknown
+  lifecycle: experimental
   owner: guests
